@@ -1,0 +1,50 @@
+---
+messages:
+  :welcome: "\n ===WELCOME TO LIBRARY=== \n 1.Sign in \n 2.Sign up \n 3.Exit"
+  :sign_in:
+    :email: "\n Enter email id: "
+    :password: "\n Enter Password: "
+    :type: "\n undefined user type please sign in again: "
+  :sign_up:
+    :first_name: "\n Enter First Name: "
+    :last_name: "\n Enter Last Name: "
+    :email: "\n Enter email id: "
+    :already: "\n ===User already Exists==="
+    :password: "\n Enter Password: "
+    :type: "\n Enter Type: "
+    :success: "\nsign up successful: "
+  :admin_operation:
+    :welcome: "\n ===ADMIN MENU===\n1. Book Operation\n2. Register Student\n3. Delete Student\n4. List of Student\n5. Home \n"
+    :email: "\n enter student email which you want to delete: "
+    :deleted: "\n===Student Deleted==="
+    :not_deleted: \n===Student not Deleted==="
+  :book_operation:
+    :welcome: "\n ===Book Operation===\n1. Add Book\n2. Delete Book\n3. Issue Book\n4. Return Book\n5. Issue Request List \n6. Return Request List \n7. List of Books in Library\n8. Back"
+  :create_book:
+    :id:  "\nenter book id: "
+    :already: "\n this book is already available: "
+    :name: "\n enter book name: "
+    :author: "\n Enter author name: "
+    :added: "\n===Book added===\n"
+  :delete_book:
+    :id: "\nenter book id: "
+    :deleted: "\n===book deleted===\n"
+    :not_exists: "\n===this book not exists===\n"
+  :issue_book: 
+    :issued:  "\n ===Book issued Successfull=== "
+    :not_exists: "\n ===Book not exists==="
+    :empty: "\nNo request for book issue: "
+  :return_book:
+    :already: "\n ====this book is already available===="
+    :return: "\n ====Book returned successful===="
+    :empty: "\nNo request for book return: "
+  :issue_request:
+    :id: "\n enter book id: "
+    :success: "\n ===your request is Successfull==="
+    :not_exists: "\n ===Currently this book is not available==="
+  :return_request: 
+    :id: "\n enter book id: "
+    :already: "\n ====this book is already available===="
+    :return: "\n ====Book return request successful===="
+  :student_operation:
+    :welcome: "\n===STUDENT MENU===\n1. Create issue Book Request\n2. Create Return Book Request\n3. My issue Books List\n4. Home\n"

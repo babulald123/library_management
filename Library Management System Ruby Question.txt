@@ -1,0 +1,8 @@
+Create a Menu Driven program for a Library Management System in Ruby.
+Features to be included:
+1. Admin Login
+2. Student Login
+3. Admin features include : Student operations(register, delete, list of student), book operations(add, delete, issue, return, list of books in library, issue request list, return request list).
+4. Student features include : Login, Register,create issue request,create return request, my issued books list.
+
+Note: Program will work on console(no database to be used). Show data in tabular for the lists.
